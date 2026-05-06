@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto e Reservas | Quinta da Azenha</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-quinta fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Quinta da Azenha</a>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navMenu"
+                    aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-md-center gap-md-1">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="vinhos.html">Vinhos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experiencias.html">Experiências</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="carrinho.html">Carrinho</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="text-center py-5" style="margin-top: 56px; background-color: var(--cor-texto); border-bottom: 2px solid var(--cor-destaque);">
+        <div class="container">
+            <h1 class="fw-normal text-white">Contacto e Reservas</h1>
+            <p class="fst-italic" style="color: var(--cor-destaque);">Estamos à sua espera em Bucelas</p>
+        </div>
+    </div>
+
+
+    <main class="py-5">
+        <div class="container">
+            <div class="row g-5">
+
+                <!-- Formulário de contacto -->
+                <div class="col-lg-7">
+                    <span class="label-secao">Reserve a Sua Visita</span>
+                    <h2 class="mb-0">Fale Connosco</h2>
+                    <div class="linha-verde-esq"></div>
+
+                    <form id="form-contacto" novalidate>
+
+                        <!-- Nome -->
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold small text-uppercase" style="letter-spacing: 0.05em;">Nome Completo *</label>
+                            <input type="text" class="form-control" id="nome" placeholder="O seu nome">
+                            <span class="mensagem-erro" id="erro-nome">Por favor, introduza o seu nome.</span>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold small text-uppercase" style="letter-spacing: 0.05em;">Email *</label>
+                            <input type="email" class="form-control" id="email" placeholder="o.seu@email.com">
+                            <span class="mensagem-erro" id="erro-email">Por favor, introduza um email válido.</span>
+                        </div>
+
+                        <!-- Telefone -->
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold small text-uppercase" style="letter-spacing: 0.05em;">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="+351 9XX XXX XXX">
+                        </div>
+
+                        <!-- Assunto -->
+                        <div class="mb-3">
+                            <label for="assunto" class="form-label fw-bold small text-uppercase" style="letter-spacing: 0.05em;">Assunto *</label>
+                            <select class="form-select" id="assunto">
+                                <option value="">- Selecione um assunto -</option>
+                            </select>
+                            <span class="mensagem-erro" id="erro-assunto">Por favor, selecione um assunto.</span>
+                        </div>
+
+                        <!-- Data e nº pessoas -->
+                        <div class="row g-3 mb-3">
+                            <div class="col-md-6">
+                                <label for="data" class="form-label fw-bold small text-uppercase" style="letter-spacing: 0.05em;">Data Pretendida</label>
+                                <input type="date" class="form-control" id="data">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="pessoas" class="form-label fw-bold small text-uppercase" style="letter-spacing: 0.05em;">Nº de Pessoas</label>
+                                <input type="number" class="form-control" id="pessoas" min="1" max="50" placeholder="Ex: 4">
+                                <span class="mensagem-erro" id="erro-pessoas"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold small text-uppercase" style="letter-spacing: 0.05em;">Mensagem *</label>
+                            <textarea class="form-control" id="mensagem" rows="5"
+                                placeholder="Conte-nos mais sobre o que procura - tipo de visita, data preferida, necessidades especiais, alergias..."></textarea>
+                            <span class="mensagem-erro" id="erro-mensagem">Por favor, escreva uma mensagem (mínimo 10 caracteres).</span>
+                        </div>
+
+                        <button type="submit" class="btn-quinta w-100 py-2">
+                            Enviar Pedido de Reserva
+                        </button>
+                        <p class="text-muted small text-center mt-2">* Campos obrigatórios. Responderemos em 24 horas.</p>
+
+                    </form>
+
+                    <!-- Mensagem de sucesso -->
+                    <div class="alerta-sucesso alert alert-success text-center mt-3" id="alerta-sucesso">
+                        <i class="bi bi-check-circle fs-2 d-block mb-2"></i>
+                        <h5>Pedido Enviado com Sucesso!</h5>
+                        <p class="mb-0">Obrigado pelo seu interesse. Entraremos em contacto dentro de 24 horas para confirmar a sua reserva.</p>
+                    </div>
+
+                </div><!-- fim coluna esquerda -->
+
+
+                <!-- Coluna dta - Informações de contacto -->
+                <div class="col-lg-5">
+                    <span class="label-secao">Onde Estamos</span>
+                    <h2 class="mb-0">Informações</h2>
+                    <div class="linha-verde-esq"></div>
+
+                    <div class="d-flex gap-3 mb-3">
+                        <i class="bi bi-geo-alt fs-4 flex-shrink-0" style="color: var(--cor-primaria);"></i>
+                        <div>
+                            <strong class="small text-uppercase" style="letter-spacing: 0.05em;">Morada</strong>
+                            <p class="text-muted small mb-0">Quinta da Azenha<br>Bucelas, 2670-000<br>Lisboa, Portugal</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 mb-3">
+                        <i class="bi bi-telephone fs-4 flex-shrink-0" style="color: var(--cor-primaria);"></i>
+                        <div>
+                            <strong class="small text-uppercase" style="letter-spacing: 0.05em;">Telefone</strong>
+                            <p class="text-muted small mb-0">+351 219 000 000</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 mb-3">
+                        <i class="bi bi-envelope fs-4 flex-shrink-0" style="color: var(--cor-primaria);"></i>
+                        <div>
+                            <strong class="small text-uppercase" style="letter-spacing: 0.05em;">Email</strong>
+                            <p class="text-muted small mb-0">visitas@quintaazenha.pt</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 mb-3">
+                        <i class="bi bi-clock fs-4 flex-shrink-0" style="color: var(--cor-primaria);"></i>
+                        <div>
+                            <strong class="small text-uppercase" style="letter-spacing: 0.05em;">Horário</strong>
+                            <p class="text-muted small mb-0">Terça a Domingo: 10h–18h<br><em>Encerrado às Segundas</em></p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 mb-4">
+                        <i class="bi bi-car-front fs-4 flex-shrink-0" style="color: var(--cor-primaria);"></i>
+                        <div>
+                            <strong class="small text-uppercase" style="letter-spacing: 0.05em;">Como Chegar</strong>
+                            <p class="text-muted small mb-0">A 25km de Lisboa<br>A1 saída Bucelas ou A8<br>Estacionamento gratuito</p>
+                        </div>
+                    </div>
+
+                    <div class="p-3" style="background-color: var(--cor-fundo); border-left: 3px solid var(--cor-primaria); border: 1px solid var(--cor-neutro);">
+                        <strong class="small">Nota sobre os nossos vinhos</strong>
+                        <p class="small mb-0 mt-1 text-muted">Não fazemos venda online! Os vinhos da Quinta da Azenha estão disponíveis exclusivamente durante as visitas. Cada garrafa merece ser descoberta pessoalmente.</p>
+                    </div>
+
+                </div><!-- fim coluna dta -->
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="py-4 border-top footer-quinta">
+        <div class="container">
+            <div class="row g-4 mb-3">
+                <div class="col-md-5">
+                    <h5 class="text-white fw-bold mb-2">Quinta da Azenha</h5>
+                    <p class="small footer-texto">Produtores de vinho Arinto DOC Bucelas.<br>Bucelas · Lisboa · Portugal</p>
+                    <div class="d-flex gap-3 mt-2">
+                        <a href="#" class="footer-social"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="footer-social"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="footer-social"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-uppercase small mb-3 footer-titulo">Navegar</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-decoration-none small footer-link">Início</a></li>
+                        <li><a href="vinhos.html" class="text-decoration-none small footer-link">Vinhos</a></li>
+                        <li><a href="experiencias.html" class="text-decoration-none small footer-link">Experiências</a></li>
+                        <li><a href="contacto.html" class="text-decoration-none small footer-link">Contacto</a></li>
+                        <li><a href="carrinho.html" class="text-decoration-none small footer-link">Carrinho</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="text-uppercase small mb-3 footer-titulo">Contacto</h6>
+                    <p class="small mb-0 footer-texto">visitas@quintaazenha.pt</p>
+                    <p class="small mb-0 footer-texto">+351 219 000 000</p>
+                    <p class="small footer-texto">Ter-Dom: 10h-18h</p>
+                </div>
+            </div>
+            <div class="border-top pt-3 d-flex justify-content-between flex-wrap gap-2 footer-divider">
+                <small class="footer-copyright">© <span id="ano-footer"></span> Quinta da Azenha · Bucelas · Portugal</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

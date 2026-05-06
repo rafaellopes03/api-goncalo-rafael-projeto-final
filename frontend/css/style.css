@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap');
+
+/* --- VARIÁVEIS --- */
+:root {
+    --cor-primaria:   #4A7C2F;
+    --cor-hover:      #3A6022;
+    --cor-fundo:      #FDFDFB;
+    --cor-texto:      #2F3E1E;
+    --cor-texto-leve: #6B7A5C;
+    --cor-destaque:   #C9A84C;
+    --cor-neutro:     #E8E8E4;
+}
+
+/* --- TIPOGRAFIA --- */
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* --- NAVBAR --- */
+.navbar-quinta {
+    background-color: var(--cor-fundo);
+    border-bottom: 1px solid var(--cor-neutro);
+}
+
+/* Nome da quinta na navbar */
+.navbar-quinta .navbar-brand {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--cor-texto);
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+}
+
+/* Links de navegação */
+.navbar-quinta .nav-link {
+    color: var(--cor-texto-leve);
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* Hover e link ativo */
+.navbar-quinta .nav-link:hover,
+.navbar-quinta .nav-link.active {
+    color: var(--cor-primaria);
+}
+
+/* Botão hamburger adaptado ao fundo claro */
+.navbar-quinta .navbar-toggler {
+    border-color: var(--cor-neutro);
+}
+
+/* --- HERO SECTION --- */
+.hero-section {
+    position: relative;
+    height: 85vh;            /* quase fullscreen */
+    min-height: 500px;
+    overflow: hidden;
+    margin-top: 56px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.45);
+}
+
+.hero-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 90%;
+    max-width: 800px;
+}
+
+/* --- CARDS ---*/
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-img-vinho {
+    height: 300px;
+    object-fit: contain;
+}
+
+/* --- LINHA DECORATIVA --- */
+.linha-verde {
+    width: 40px;
+    height: 2px;
+    background-color: var(--cor-primaria);
+    margin: 0.75rem auto 2rem;              /*top right-left bottom */
+}
+
+/* Versão alinhada à esquerda */
+.linha-verde-esq {
+    width: 40px;
+    height: 2px;
+    background-color: var(--cor-primaria);
+    margin: 0.75rem 0 2rem;
+}
+
+/* --- AVALIAÇÕES  --- */
+.avaliacao-estrelas {
+    color: var(--cor-destaque);   /* dourado arinto */
+    font-size: 0.85rem;
+}
+
+.avaliacao-texto {
+    font-size: 0.75rem;
+    color: var(--cor-texto-leve);
+    margin-left: 0.25rem;
+}
+
+/* --- LABEL DE SECÇÃO --- */
+.label-secao {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--cor-primaria);
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+/* --- BOTÃO PRINCIPAL DA QUINTA --- */
+.btn-quinta {
+    background-color: var(--cor-primaria);
+    color: #FDFDFB;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    padding: 0.65rem 1.75rem;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-quinta:hover {
+    background-color: var(--cor-hover);
+    color: #FDFDFB;
+}
+
+/* Versão outline */
+.btn-quinta-outline {
+    background-color: transparent;
+    color: var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding: 0.65rem 1.75rem;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-quinta-outline:hover {
+    background-color: var(--cor-primaria);
+    color: #FDFDFB;
+}
+
+/* --- FAQ ACORDEÃO --- */
+.faq-resposta {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-item.aberto .faq-resposta {
+    max-height: 200px;
+}
+
+.faq-icone {
+    transition: transform 0.3s;
+    display: inline-block;
+}
+
+.faq-item.aberto .faq-icone {
+    transform: rotate(45deg);
+}
+
+/* --- VALIDAÇÃO DO FORMULÁRIO --- */
+.mensagem-erro {
+    display: none;
+    color: #dc3545;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+}
+
+.mensagem-erro.visivel {
+    display: block;
+}
+
+/* Caixa de sucesso após submissão válida */
+.alerta-sucesso {
+    display: none;
+}
+
+.alerta-sucesso.visivel {
+    display: block;
+}
+
+/* --- BOTÕES DE FILTRO DE VINHOS --- */
+.btn-filtro {
+    border: 1px solid var(--cor-neutro);
+    border-radius: 2px;
+    letter-spacing: 0.05em;
+    font-size: 0.8rem;
+    color: var(--cor-texto-leve);
+    background-color: transparent;
+}
+
+.btn-filtro.active {
+    background-color: var(--cor-primaria);
+    color: white;
+    border-color: var(--cor-primaria);
+}
+
+.btn-filtro:hover:not(.active) {
+    border-color: var(--cor-primaria);
+    color: var(--cor-primaria);
+}
+
+
+/* --- FOOTER --- */
+.footer-quinta {
+    background-color: var(--cor-texto);
+}
+
+.footer-texto {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-titulo {
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.1em;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-link:hover {
+    color: var(--cor-destaque);
+}
+
+.footer-social {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+
+.footer-social:hover {
+    color: var(--cor-destaque);
+}
+
+.footer-divider {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 70vh;
+        margin-top: 56px;
+    }
+
+    .hero-texto h1 {
+        font-size: 2rem;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+}

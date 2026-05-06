@@ -1,0 +1,27 @@
+{
+  "imposters": [
+    {
+      "port": 3000,
+      "protocol": "http",
+      "name": "Quinta da Azenha - Inventário",
+      "stubs": [
+        {
+          "predicates": [{ "equals": { "method": "GET", "path": "/inventory/QA-001" } }],
+          "responses": [{ "is": { "statusCode": 200, "headers": { "Content-Type": "application/json" }, "body": "{\"sku\":\"QA-001\",\"nome\":\"Arinto Clássico\",\"stock\":45,\"disponivel\":true}" } }]
+        },
+        {
+          "predicates": [{ "equals": { "method": "GET", "path": "/inventory/QA-002" } }],
+          "responses": [{ "is": { "statusCode": 200, "headers": { "Content-Type": "application/json" }, "body": "{\"sku\":\"QA-002\",\"nome\":\"Arinto Reserva\",\"stock\":20,\"disponivel\":true}" } }]
+        },
+        {
+          "predicates": [{ "equals": { "method": "GET", "path": "/inventory/QA-003" } }],
+          "responses": [{ "is": { "statusCode": 200, "headers": { "Content-Type": "application/json" }, "body": "{\"sku\":\"QA-003\",\"nome\":\"Arinto Colheita Tardia\",\"stock\":0,\"disponivel\":false}" } }]
+        },
+        {
+          "predicates": [{ "equals": { "method": "POST", "path": "/payments" } }],
+          "responses": [{ "is": { "statusCode": 200, "headers": { "Content-Type": "application/json" }, "body": "{\"success\":true,\"transactionId\":\"TXN-12345\",\"mensagem\":\"Pagamento processado com sucesso\"}" } }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|c:\\users\\gnpch\\documents\\goncalo\\atec_tpsi\\uc00605 server side dario\\projeto final goncalorafael\\605_projeto_api\\backend_api\\visualstudio\\605_api\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|solutionrelative:605_api\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|c:\\users\\gnpch\\documents\\goncalo\\atec_tpsi\\uc00605 server side dario\\projeto final goncalorafael\\605_projeto_api\\backend_api\\visualstudio\\605_api\\resilience\\resilienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|solutionrelative:605_api\\resilience\\resilienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|c:\\users\\gnpch\\documents\\goncalo\\atec_tpsi\\uc00605 server side dario\\projeto final goncalorafael\\605_projeto_api\\backend_api\\visualstudio\\605_api\\controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|solutionrelative:605_api\\controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|c:\\users\\gnpch\\documents\\goncalo\\atec_tpsi\\uc00605 server side dario\\projeto final goncalorafael\\605_projeto_api\\backend_api\\visualstudio\\605_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|solutionrelative:605_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|c:\\users\\gnpch\\documents\\goncalo\\atec_tpsi\\uc00605 server side dario\\projeto final goncalorafael\\605_projeto_api\\backend_api\\visualstudio\\605_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|solutionrelative:605_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|c:\\users\\gnpch\\documents\\goncalo\\atec_tpsi\\uc00605 server side dario\\projeto final goncalorafael\\605_projeto_api\\backend_api\\visualstudio\\605_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|solutionrelative:605_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|c:\\users\\gnpch\\documents\\goncalo\\atec_tpsi\\uc00605 server side dario\\projeto final goncalorafael\\605_projeto_api\\backend_api\\visualstudio\\605_api\\controllers\\experienciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|solutionrelative:605_api\\controllers\\experienciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|c:\\users\\gnpch\\documents\\goncalo\\atec_tpsi\\uc00605 server side dario\\projeto final goncalorafael\\605_projeto_api\\backend_api\\visualstudio\\605_api\\controllers\\vinhoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|solutionrelative:605_api\\controllers\\vinhoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|c:\\users\\gnpch\\documents\\goncalo\\atec_tpsi\\uc00605 server side dario\\projeto final goncalorafael\\605_projeto_api\\backend_api\\visualstudio\\605_api\\models\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F25D89-2D1D-427C-9BE0-5BF705B892D4}|605_api\\605_api.csproj|solutionrelative:605_api\\models\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 224,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Services\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "605_api\\Services\\RedisCacheService.cs",
+              "ToolTip": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Services\\RedisCacheService.cs",
+              "RelativeToolTip": "605_api\\Services\\RedisCacheService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T16:00:36.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResilienceService.cs",
+              "DocumentMoniker": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Resilience\\ResilienceService.cs",
+              "RelativeDocumentMoniker": "605_api\\Resilience\\ResilienceService.cs",
+              "ToolTip": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Resilience\\ResilienceService.cs",
+              "RelativeToolTip": "605_api\\Resilience\\ResilienceService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:58:58.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UtilizadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Controllers\\UtilizadoresController.cs",
+              "RelativeDocumentMoniker": "605_api\\Controllers\\UtilizadoresController.cs",
+              "ToolTip": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Controllers\\UtilizadoresController.cs",
+              "RelativeToolTip": "605_api\\Controllers\\UtilizadoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T23:49:58.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "605_api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "605_api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCcAAACgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T22:54:15.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "605_api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "605_api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-27T22:54:08.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Utilizador.cs",
+              "DocumentMoniker": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Models\\Utilizador.cs",
+              "RelativeDocumentMoniker": "605_api\\Models\\Utilizador.cs",
+              "ToolTip": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Models\\Utilizador.cs",
+              "RelativeToolTip": "605_api\\Models\\Utilizador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T20:56:59.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Program.cs",
+              "RelativeDocumentMoniker": "605_api\\Program.cs",
+              "ToolTip": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Program.cs",
+              "RelativeToolTip": "605_api\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwFMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T20:49:01.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExperienciasController.cs",
+              "DocumentMoniker": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Controllers\\ExperienciasController.cs",
+              "RelativeDocumentMoniker": "605_api\\Controllers\\ExperienciasController.cs",
+              "ToolTip": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Controllers\\ExperienciasController.cs",
+              "RelativeToolTip": "605_api\\Controllers\\ExperienciasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T21:55:35.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VinhosController.cs",
+              "DocumentMoniker": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Controllers\\VinhosController.cs",
+              "RelativeDocumentMoniker": "605_api\\Controllers\\VinhosController.cs",
+              "ToolTip": "C:\\Users\\gnpch\\Documents\\Goncalo\\ATEC_TPSI\\UC00605 Server Side Dario\\Projeto Final GoncaloRafael\\605_Projeto_API\\backend_api\\visualstudio\\605_api\\Controllers\\VinhosController.cs",
+              "RelativeToolTip": "605_api\\Controllers\\VinhosController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwD8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T20:46:26.335Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

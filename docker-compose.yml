@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:alpine
+    container_name: quinta_redis
+    ports:
+      - "6379:6379"
+
+  mountebank:
+    image: bbyars/mountebank:latest
+    container_name: quinta_mountebank
+    ports:
+      - "2525:2525"
+      - "3000:3000"
+    volumes:
+      - ./Imposter:/imposters
+    command: start --configfile /imposters/mountebank.json --allowInjection

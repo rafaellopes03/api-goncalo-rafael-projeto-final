@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Os Nossos Vinhos | Quinta da Azenha</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR - igual à home -->
+    <nav class="navbar navbar-expand-md navbar-quinta fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="../index.html">Quinta da Azenha</a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navMenu"
+                    aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-md-center gap-md-1">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="vinhos.html">Vinhos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experiencias.html">Experiências</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="carrinho.html">Carrinho</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho -->
+    <div class="text-center py-5" style="margin-top: 56px; background-color: var(--cor-texto); border-bottom: 2px solid var(--cor-destaque);">
+        <div class="container">
+            <h1 class="fw-normal text-white">Os Nossos Vinhos</h1>
+            <p class="fst-italic" style="color: var(--cor-destaque);">Arinto DOC Bucelas - a casta que define uma região</p>
+        </div>
+    </div>
+
+
+    <main>
+        <section class="py-5">
+            <div class="container">
+                <span class="label-secao text-center d-block">Catálogo Completo</span>
+                <h2 class="text-center mb-0">A Nossa Gama</h2>
+                <div class="linha-verde"></div>
+
+                <div class="row g-4" id="container-vinhos">
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="py-4 border-top footer-quinta">
+        <div class="container">
+            <div class="row g-4 mb-3">
+                <div class="col-md-5">
+                    <h5 class="text-white fw-bold mb-2">Quinta da Azenha</h5>
+                    <p class="small footer-texto">Produtores de vinho Arinto DOC Bucelas.<br>Bucelas · Lisboa · Portugal</p>
+                    <div class="d-flex gap-3 mt-2">
+                        <a href="#" class="footer-social"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="footer-social"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="footer-social"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-uppercase small mb-3 footer-titulo">Navegar</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-decoration-none small footer-link">Início</a></li>
+                        <li><a href="vinhos.html" class="text-decoration-none small footer-link">Vinhos</a></li>
+                        <li><a href="experiencias.html" class="text-decoration-none small footer-link">Experiências</a></li>
+                        <li><a href="contacto.html" class="text-decoration-none small footer-link">Contacto</a></li>
+                        <li><a href="carrinho.html" class="text-decoration-none small footer-link">Carrinho</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="text-uppercase small mb-3 footer-titulo">Contacto</h6>
+                    <p class="small mb-0 footer-texto">visitas@quintaazenha.pt</p>
+                    <p class="small mb-0 footer-texto">+351 219 000 000</p>
+                    <p class="small footer-texto">Ter–Dom: 10h–18h</p>
+                </div>
+            </div>
+            <div class="border-top pt-3 d-flex justify-content-between flex-wrap gap-2 footer-divider">
+                <small class="footer-copyright">© <span id="ano-footer"></span> Quinta da Azenha · Bucelas · Portugal</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
